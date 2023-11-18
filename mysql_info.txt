@@ -1,0 +1,8 @@
+--Check version
+mysql --version
+
+--Connect to the DB by username(default user is 'root") and for -p you need to enter your password
+mysql -u root -p
+
+--Show all databases in the server after succes login
+show databases;
